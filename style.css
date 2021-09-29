@@ -5,6 +5,16 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  background-color: peachpuff;
+}
+.header {
+  text-align: center;
+  font-weight: bolder;
+  padding: 20px 20px;
+  background-color: rebeccapurple;
+  font-size: xx-large;
+  width: 50vw;
+  margin: 20px auto;
 }
 .parent {
   font-size: 30px;
@@ -12,20 +22,22 @@ body,
   width: 100vw;
   justify-content: space-around;
   padding: 10px 10px;
+  margin: 40px auto;
 }
 .child {
   border: 1px solid blue;
   width: 25%;
+  height: 260px;
+  text-align: center;
 }
 .child-1 {
   background-color: green;
-  height: 300px;
 }
 .child-2 {
   background-color: palevioletred;
-  height: 300px;
 }
 .child-3 {
   background-color: lightskyblue;
-  height: 300px;
+}
+.about {
 }

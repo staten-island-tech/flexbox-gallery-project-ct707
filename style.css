@@ -16,27 +16,31 @@ body,
   width: 50vw;
   margin: 20px auto;
 }
-.parent {
-  font-size: 5rem;
+.cake-flavor {
+  font-size: 4rem;
   display: flex;
-  width: 100%;
+  align-items: center;
   justify-content: space-around;
-  padding: 10px 10px;
+  padding: 40px 10px;
   margin: 40px auto;
 }
 .child {
   border: 2px solid blue;
+  background-color: lavender;
+  box-shadow: 10px 5px 5px cornflowerblue;
   width: 20%;
   height: 260px;
   text-align: center;
   padding-top: 11rem;
 }
-.child-1 {
-  background-color: green;
+.image-1 {
+  width: 40px;
+  height: 30px;
+}
+.image-text {
+  background-color: lavender;
 }
 .child-2 {
-  background-color: palevioletred;
 }
 .child-3 {
-  background-color: lightskyblue;
 }

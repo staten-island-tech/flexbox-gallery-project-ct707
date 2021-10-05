@@ -16,15 +16,15 @@ body,
   width: 50vw;
   margin: 20px auto;
 }
-.cake-flavor {
+.cake-posts {
   font-size: 4rem;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 80%;
   padding: 40px 10px;
   margin: 40px auto;
 }
-.child {
+.cake {
   border: 2px solid blue;
   background-color: lavender;
   box-shadow: 10px 5px 5px cornflowerblue;
@@ -33,14 +33,10 @@ body,
   text-align: center;
   padding-top: 11rem;
 }
-.image-1 {
+.post-image {
   width: 40px;
   height: 30px;
 }
-.image-text {
+.post-title {
   background-color: lavender;
-}
-.child-2 {
-}
-.child-3 {
 }

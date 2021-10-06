@@ -5,38 +5,42 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  background-color: peachpuff;
+  background-color: #dab894;
 }
 .header {
   text-align: center;
   font-weight: bolder;
   padding: 20px 20px;
-  background-color: rebeccapurple;
-  font-size: xx-large;
+  color: #4a2511;
+  font-size: 6rem;
   width: 50vw;
   margin: 20px auto;
 }
 .cake-posts {
   font-size: 4rem;
+  margin: 2rem auto;
   display: flex;
-  justify-content: space-evenly;
+  height: 30rem;
+  justify-content: space-between;
   width: 80%;
-  padding: 40px 10px;
-  margin: 40px auto;
+  align-items: center;
+  padding: 25px;
+  margin: 4rem auto;
+  border-radius: 10px;
+  border-bottom: 50px;
 }
 .cake {
-  border: 2px solid blue;
-  background-color: lavender;
-  box-shadow: 10px 5px 5px cornflowerblue;
+  background-color: #ecddd0;
+  box-shadow: 10px 5px 5px #795c34;
   width: 20%;
   height: 260px;
   text-align: center;
   padding-top: 11rem;
 }
 .post-image {
-  width: 40px;
-  height: 30px;
+  width: 50px;
+  height: 40px;
 }
 .post-title {
-  background-color: lavender;
+  background-color: #ecddd0;
 }

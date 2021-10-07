@@ -5,6 +5,8 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+}
+body {
   background-color: #dab894;
 }
 .header {
@@ -16,33 +18,30 @@ body,
   width: 50vw;
   margin: 10px auto;
 }
-.sub-header {
-  font-size: 4rem;
-}
 .post-cake {
   font-size: 8rem;
-  margin: 2rem auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height: 30rem;
-  width: 80%;
   align-items: center;
-  border-radius: 30px;
 }
 .cake {
   background-color: #ecddd0;
   box-shadow: 10px 5px 5px #795c34;
-  width: 27%;
-  height: 260px;
-  margin: 4rem auto;
+  width: 35rem;
+  height: 46rem;
+  margin: 8rem auto;
   text-align: center;
-  padding-top: 11rem;
+  border: solid #4a2511;
+  border-radius: 20px;
 }
 .post-image {
-  width: 120px;
-  height: 100px;
+  width: 24rem;
+  height: 20rem;
+  margin: 3rem auto;
+  border-radius: 20px;
 }
-.post-title {
-  background-color: #ecddd0;
+.post-words {
+  padding-top: 4rem;
+  font-size: larger;
 }

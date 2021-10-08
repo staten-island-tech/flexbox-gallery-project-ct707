@@ -5,6 +5,7 @@ body,
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: "Raleway", sans-serif;
 }
 body {
   background-color: #dab894;
@@ -19,7 +20,8 @@ body {
   margin: 10px auto;
 }
 .post-cake {
-  font-size: 8rem;
+  font-size: 9rem;
+  font-weight: bolder;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -27,13 +29,13 @@ body {
 }
 .cake {
   background-color: #ecddd0;
-  box-shadow: 10px 5px 5px #795c34;
-  width: 35rem;
+  width: 30%;
   height: 46rem;
   margin: 8rem auto;
   text-align: center;
   border: solid #4a2511;
   border-radius: 20px;
+  box-shadow: 10px 10px 10px #795c34;
 }
 .post-image {
   width: 24rem;
@@ -43,5 +45,5 @@ body {
 }
 .post-words {
   padding-top: 4rem;
-  font-size: larger;
+  font-size: 80%;
 }

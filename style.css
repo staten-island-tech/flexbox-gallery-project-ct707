@@ -34,13 +34,14 @@ body {
 }
 .cake {
   background-color: #ecddd0;
-  width: 30%;
+  width: 35rem;
   height: 46rem;
   margin: 8rem auto;
   text-align: center;
   border: solid #4a2511;
   border-radius: 20px;
   box-shadow: 10px 10px 10px #795c34;
+  
 }
 .post-image {
   width: 24rem;
@@ -51,4 +52,9 @@ body {
 .post-words {
   padding-top: 4rem;
   font-size: 80%;
+}
+.container {
+  width: 33%;
+  justify-content: space-between;
+  align-items: center;
 }

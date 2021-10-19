@@ -53,20 +53,17 @@ body {
 .cake-container {
   width: 33%;
   height: 60rem;
-
   font-size: 8rem;
 }
 
 @keyframes cake-1 {
   30% {
-    -webkit-transform: scale(1.2);
     transform: scale(1.2);
   }
 }
 .cake-1 {
-  -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0)
-  box-shadow: 0 0 1px #ecddd0(0,0,0,0);
+  box-shadow: 10px 10px 10px #795c34;
 }
 .cake-1:hover, .cake-1:focus, .cake-1:active {
   animation-name: cake-1;
@@ -98,7 +95,7 @@ body {
 }
 .cake-3 {
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px #ecddd0(0,0,0,0);
+  box-shadow: 10px 10px 10px #795c34;
 }
 .cake-3:hover, .cake-3:focus, .cake-3:active {
   animation-name: cake-3;
@@ -109,7 +106,7 @@ body {
 
 .cake-5 {
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px #ecddd0(0,0,0,0);
+  box-shadow: 10px 10px 10px #795c34;
   transition-duration: 0.5s;
 }
 .cake-5:hover, .cake-5:focus, .cake-5:active {
@@ -130,7 +127,7 @@ body {
 }
 .cake-7 {
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px #ecddd0(0,0,0,0);
+  box-shadow: 10px 10px 10px #795c34;
 }
 .cake-7:hover, .cake-7:focus, .cake-7:active {
   animation-name: cake-7-float, cake-7;
@@ -142,51 +139,7 @@ body {
   animation-direction: normal, alternate;
 }
 
-@-webkit-keyframes cake-9 {
-  10% {
-    -webkit-transform: translateX(3px) rotate(2deg);
-    transform: translateX(3px) rotate(2deg);
-  }
-  20% {
-    -webkit-transform: translateX(-3px) rotate(-2deg);
-    transform: translateX(-3px) rotate(-2deg);
-  }
-  30% {
-    -webkit-transform: translateX(3px) rotate(2deg);
-    transform: translateX(3px) rotate(2deg);
-  }
-  40% {
-    -webkit-transform: translateX(-3px) rotate(-2deg);
-    transform: translateX(-3px) rotate(-2deg);
-  }
-  50% {
-    -webkit-transform: translateX(2px) rotate(1deg);
-    transform: translateX(2px) rotate(1deg);
-  }
-  60% {
-    -webkit-transform: translateX(-2px) rotate(-1deg);
-    transform: translateX(-2px) rotate(-1deg);
-  }
-  70% {
-    -webkit-transform: translateX(2px) rotate(1deg);
-    transform: translateX(2px) rotate(1deg);
-  }
-  80% {
-    -webkit-transform: translateX(-2px) rotate(-1deg);
-    transform: translateX(-2px) rotate(-1deg);
-  }
-  90% {
-    -webkit-transform: translateX(1px) rotate(0);
-    transform: translateX(1px) rotate(0);
-  }
-  100% {
-    -webkit-transform: translateX(-1px) rotate(0);
-    transform: translateX(-1px) rotate(0);
-  }
-}
-.cake-9 {
-  transform: perspective(1px) translateZ(0);
-  @-webkit-keyframes cake-9 {
+@keyframes cake-9 {
   10% {
     transform: translateX(3px) rotate(2deg);
   }
@@ -217,7 +170,6 @@ body {
   100% {
     transform: translateX(-1px) rotate(0);
   }
-}
 }
 .cake-9 {
   transform: perspective(1px) translateZ(0);
@@ -256,5 +208,22 @@ body {
   }
   100%{
     opacity: 100%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .cake-container {
+    width: 50%;
+    align-items: center;
+  }
+}
+@media (max-width: 1668px) {
+  .cake-container {
+    width: 50%;
+  }
+}
+@media (max-width: 1700px) {
+  .cake-container {
+    width: 50%;
   }
 }

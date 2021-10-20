@@ -182,7 +182,7 @@ body {
   animation-iteration-count: 1;
 }
 .cake-container {
-  animation: posts 3s 1;
+  animation: posts 2s 1;
 }
 @keyframes posts {
   0%{
@@ -218,6 +218,10 @@ body {
     .post-cake {
       display: block;
       flex-direction: column;
+      width: 20vw;
+    }
+    .cake-container {
+      width: 20vw;
     }
   }
 
@@ -228,6 +232,9 @@ body {
     .post-cake {
       display: block;
       flex-direction: column;
+    }
+    .cake-container {
+      width: 35%;
     }
   }
 

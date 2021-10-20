@@ -218,7 +218,6 @@ body {
     .post-cake {
       display: block;
       flex-direction: column;
-      width: 20vw;
     }
     .cake-container {
       width: 20vw;
@@ -243,6 +242,10 @@ body {
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
     .post-cake {
-      width: 30%;
+      display: block;
+      flex-direction: column;
+    }
+    .cake-container {
+      width: 50%;
     }
   }

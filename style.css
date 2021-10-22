@@ -65,7 +65,9 @@ body {
   transform: perspective(1px);
   box-shadow: 10px 10px 10px #795c34;
 }
-.cake-1:hover, .cake-1:focus, .cake-1:active {
+.cake-1:hover,
+.cake-1:focus,
+.cake-1:active {
   animation-name: cake-1;
   animation-duration: 0.8s;
   animation-iteration-count: 1;
@@ -95,7 +97,9 @@ body {
   transform: perspective(1px);
   box-shadow: 10px 10px 10px #795c34;
 }
-.cake-3:hover, .cake-3:focus, .cake-3:active {
+.cake-3:hover,
+.cake-3:focus,
+.cake-3:active {
   animation-name: cake-3;
   animation-duration: 1s;
   animation-iteration-count: 1;
@@ -106,7 +110,9 @@ body {
   box-shadow: 10px 10px 10px #795c34;
   transition-duration: 0.5s;
 }
-.cake-5:hover, .cake-5:focus, .cake-5:active {
+.cake-5:hover,
+.cake-5:focus,
+.cake-5:active {
   transform: scale(1.2);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 }
@@ -126,7 +132,9 @@ body {
   transform: perspective(1px);
   box-shadow: 10px 10px 10px #795c34;
 }
-.cake-7:hover, .cake-7:focus, .cake-7:active {
+.cake-7:hover,
+.cake-7:focus,
+.cake-7:active {
   animation-name: cake-7-float, cake-7;
   animation-duration: 0.5s, 0.8s;
   animation-delay: 0s, 0.2s;
@@ -169,7 +177,9 @@ body {
   transform: perspective(1px);
   box-shadow: 10px 10px 10px #795c34;
 }
-.cake-9:hover, .cake-9:focus, .cake-9:active {
+.cake-9:hover,
+.cake-9:focus,
+.cake-9:active {
   animation-name: cake-9;
   animation-duration: 0.75s;
   animation-iteration-count: 1;
@@ -178,67 +188,64 @@ body {
   animation: posts 2s 1;
 }
 @keyframes posts {
-  0%{
+  0% {
     opacity: 0%;
   }
-  15%{
+  15% {
     opacity: 15%;
   }
-  30%{
+  30% {
     opacity: 30%;
   }
-  45%{
+  45% {
     opacity: 45%;
   }
-  60%{
+  60% {
     opacity: 60%;
   }
-  75%{
+  75% {
     opacity: 75%;
   }
-  90%{
+  90% {
     opacity: 90%;
   }
-  100%{
+  100% {
     opacity: 100%;
   }
 }
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 3) {
-    .post-cake {
-      display: block;
-      flex-direction: column;
-    }
-    .cake-container {
-      width: 20vw;
-    }
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 3) {
+  .post-cake {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
+  .cake-container {
+    width: 20vw;
+  }
+}
 
-@media only screen
-  and (min-device-width: 786px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .post-cake {
-      display: block;
-      flex-direction: column;
-    }
-    .cake-container {
-      width: 35%;
-    }
+@media only screen and (min-device-width: 786px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .post-cake {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
+  .cake-container {
+    width: 35%;
+  }
+}
 
-@media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
-    .post-cake {
-      display: block;
-      flex-direction: column;
-    }
-    .cake-container {
-      width: 50%;
-    }
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .post-cake {
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
+  .cake-container {
+    width: 50%;
+  }
+}
